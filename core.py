@@ -77,9 +77,77 @@ data = [
   {"号码": 64, "卦名": "未濟", "六十四卦": "火水未濟", "卦辭": "亨.小狐汔濟，濡其尾，無攸利。",                                              "爻辭": {"初六": "濡其尾，吝。",                                            "九二": "曳其輪，貞吉。", "六三": "未濟，征凶，利涉大川。", "九四": "貞吉，悔亡.震用伐鬼方，三年有賞于大國。", "六五": "貞吉，無悔.君子之光，有孚，吉。", "上九": "有孚于飲酒，無咎.濡其首，有孚失是。"}}
 ]
 
+号码转至WP = {
+    1:"https://www.zhouyi.cc/zhouyi/yijing64/4103.html",
+    2:"https://www.zhouyi.cc/zhouyi/yijing64/4105.html",
+    3:"https://www.zhouyi.cc/zhouyi/yijing64/4106.html",
+    4:"https://www.zhouyi.cc/zhouyi/yijing64/4107.html",
+    5:"https://www.zhouyi.cc/zhouyi/yijing64/4108.html",
+    6:"https://www.zhouyi.cc/zhouyi/yijing64/4109.html",
+    7:"https://www.zhouyi.cc/zhouyi/yijing64/4110.html",
+    8:"https://www.zhouyi.cc/zhouyi/yijing64/4111.html",
+    9:"https://www.zhouyi.cc/zhouyi/yijing64/4112.html",
+    10:"https://www.zhouyi.cc/zhouyi/yijing64/4113.html",
+    11:"https://www.zhouyi.cc/zhouyi/yijing64/4126.html",
+    12:"https://www.zhouyi.cc/zhouyi/yijing64/4127.html",
+    13:"https://www.zhouyi.cc/zhouyi/yijing64/4140.html",
+    14:"https://www.zhouyi.cc/zhouyi/yijing64/4141.html",
+    15:"https://www.zhouyi.cc/zhouyi/yijing64/4142.html",
+    16:"https://www.zhouyi.cc/zhouyi/yijing64/4143.html",
+    17:"https://www.zhouyi.cc/zhouyi/yijing64/4144.html",
+    18:"https://www.zhouyi.cc/zhouyi/yijing64/4145.html",
+    19:"https://www.zhouyi.cc/zhouyi/yijing64/4146.html",
+    20:"https://www.zhouyi.cc/zhouyi/yijing64/4147.html",
+    21:"https://www.zhouyi.cc/zhouyi/yijing64/4148.html",
+    22:"https://www.zhouyi.cc/zhouyi/yijing64/4149.html",
+    23:"https://www.zhouyi.cc/zhouyi/yijing64/4150.html",
+    24:"https://www.zhouyi.cc/zhouyi/yijing64/4152.html",
+    25:"https://www.zhouyi.cc/zhouyi/yijing64/4153.html",
+    26:"https://www.zhouyi.cc/zhouyi/yijing64/4159.html",
+    27:"https://www.zhouyi.cc/zhouyi/yijing64/4164.html",
+    28:"https://www.zhouyi.cc/zhouyi/yijing64/4167.html",
+    29:"https://www.zhouyi.cc/zhouyi/yijing64/4168.html",
+    30:"https://www.zhouyi.cc/zhouyi/yijing64/4169.html",
+    31:"https://www.zhouyi.cc/zhouyi/yijing64/4170.html",
+    32:"https://www.zhouyi.cc/zhouyi/yijing64/4171.html",
+    33:"https://www.zhouyi.cc/zhouyi/yijing64/4172.html",
+    34:"https://www.zhouyi.cc/zhouyi/yijing64/4173.html",
+    35:"https://www.zhouyi.cc/zhouyi/yijing64/4174.html",
+    36:"https://www.zhouyi.cc/zhouyi/yijing64/4175.html",
+    37:"https://www.zhouyi.cc/zhouyi/yijing64/4176.html",
+    38:"https://www.zhouyi.cc/zhouyi/yijing64/4177.html",
+    39:"https://www.zhouyi.cc/zhouyi/yijing64/4179.html",
+    40:"https://www.zhouyi.cc/zhouyi/yijing64/4180.html",
+    41:"https://www.zhouyi.cc/zhouyi/yijing64/4181.html",
+    42:"https://www.zhouyi.cc/zhouyi/yijing64/4182.html",
+    43:"https://www.zhouyi.cc/zhouyi/yijing64/4183.html",
+    44:"https://www.zhouyi.cc/zhouyi/yijing64/4184.html",
+    45:"https://www.zhouyi.cc/zhouyi/yijing64/4185.html",
+    46:"https://www.zhouyi.cc/zhouyi/yijing64/4186.html",
+    47:"https://www.zhouyi.cc/zhouyi/yijing64/4187.html",
+    48:"https://www.zhouyi.cc/zhouyi/yijing64/4188.html",
+    49:"https://www.zhouyi.cc/zhouyi/yijing64/4189.html",
+    50:"https://www.zhouyi.cc/zhouyi/yijing64/4190.html",
+    51:"https://www.zhouyi.cc/zhouyi/yijing64/4192.html",
+    52:"https://www.zhouyi.cc/zhouyi/yijing64/4193.html",
+    53:"https://www.zhouyi.cc/zhouyi/yijing64/4194.html",
+    54:"https://www.zhouyi.cc/zhouyi/yijing64/4195.html",
+    55:"https://www.zhouyi.cc/zhouyi/yijing64/4196.html",
+    56:"https://www.zhouyi.cc/zhouyi/yijing64/4197.html",
+    57:"https://www.zhouyi.cc/zhouyi/yijing64/4198.html",
+    58:"https://www.zhouyi.cc/zhouyi/yijing64/4200.html",
+    59:"https://www.zhouyi.cc/zhouyi/yijing64/4212.html",
+    60:"https://www.zhouyi.cc/zhouyi/yijing64/4244.html",
+    61:"https://www.zhouyi.cc/zhouyi/yijing64/4255.html",
+    62:"https://www.zhouyi.cc/zhouyi/yijing64/4256.html",
+    63:"https://www.zhouyi.cc/zhouyi/yijing64/4257.html",
+    64:"https://www.zhouyi.cc/zhouyi/yijing64/4263.html"
+}
+
 六十四卦转至号码 = { item['六十四卦']:item['号码'] for item in data }
 六十四卦转至爻辭 = { item['六十四卦']:item['爻辭'] for item in data }
 六十四卦转至卦辭 = { item['六十四卦']:item['卦辭'] for item in data }
+六十四卦转至WP = { item['六十四卦']:item['webpage'] for item in data }
 
 
 
@@ -149,7 +217,7 @@ def 打印卦(花数量, 变爻指数):
     # 长度 == 5, 变卦 min(爻辭)
     # 长度 == 6, 变卦 卦辭, if 乾 then X, if 坤 then Y
 
-    def 打印细节(卦, 展示卦辭=True, 变爻指数=[]):
+    def 打印细节(卦, 展示卦辭=True, 变爻指数=[], 打印Important=False):
         上三爻 = 接合(卦[3:6])
         下三爻 = 接合(卦[0:3])
         打印(f"上三爻:{上三爻} \t 下三爻:{下三爻}")
@@ -161,8 +229,10 @@ def 打印卦(花数量, 变爻指数):
         号码 = 六十四卦转至号码[六十四卦名称]
         卦辭 = 六十四卦转至卦辭[六十四卦名称]
         爻辭 = 六十四卦转至爻辭[六十四卦名称]
+        WP = 号码转至WP[int(号码)]
         
         #六十四卦
+        打印(WP)
         打印(f"第{号码}卦:{六十四卦名称}", end="")
 
         # TODO if 乾 then X, if 坤 then Y
@@ -177,11 +247,12 @@ def 打印卦(花数量, 变爻指数):
                 变爻指数 = []
                 展示卦辭 = True
 
-        if 展示卦辭:
-            打印(f"\t 卦辭:{卦辭}", end="")
+        #if 展示卦辭:
+        打印(f"\t 卦辭:{卦辭}", end="")
 
         if 长度(变爻指数) in [0, 6]:
-            打印(f"<<<<<<<<<<<<<<<<<<<", end="")
+            if 打印Important == True:
+                打印(f"<<<<<<<<<<<<<<<<<<<", end="")
         打印()
 
         for i in 范围( 6, 0, -1):
@@ -197,23 +268,23 @@ def 打印卦(花数量, 变爻指数):
 
             打印(f"{flag}{i}爻: {爻名} ({四象[i-1]}) {line} \t 爻辭: {爻辭[爻名]}", end="")
             if i in 变爻指数:
-                打印(f"<<<<<<<<<<<<<<<<<<<")
-            else:
-                打印()
+                if 打印Important == True:
+                    打印(f"<<<<<<<<<<<<<<<<<<<", end="")
+            打印()
 
-    if 变爻长度 <= 3:
-        打印(f"---------------------- 原卦: -----------------------")
-        打印(f"原卦: {原卦}")
-        展示爻辭 = [最大值(变爻指数)] if 变爻长度 in [1,2] else []
-        展示卦辭 = 长度(变爻指数) in [0,6]
-        打印细节(原卦, 展示卦辭, 展示爻辭)
     
-    if 变爻长度 >= 3:
-        打印(f"---------------------- 变卦: -----------------------")
-        打印(f"变卦: {变卦}")
-        展示爻辭 = [最小值(变爻指数)] if 变爻长度 in [4,5] else []
-        展示卦辭 = 长度(变爻指数) in [0,6]
-        打印细节(变卦, 展示卦辭, 展示爻辭)
+    打印(f"---------------------- 原卦: ----------------------- {变爻长度 <= 3}")
+    打印(f"原卦: {原卦}")
+    展示爻辭 = [最大值(变爻指数)] if 变爻长度 in [1,2] else []
+    展示卦辭 = 长度(变爻指数) in [0,6]
+    打印细节(原卦, 展示卦辭, 展示爻辭, 打印Important=变爻长度 <= 3)
+    
+
+    打印(f"---------------------- 变卦: ----------------------- {变爻长度 >= 3}")
+    打印(f"变卦: {变卦}")
+    展示爻辭 = [最小值(变爻指数)] if 变爻长度 in [4,5] else []
+    展示卦辭 = 长度(变爻指数) in [0,6]
+    打印细节(变卦, 展示卦辭, 展示爻辭, 打印Important=变爻长度 >= 3)
 
 
 

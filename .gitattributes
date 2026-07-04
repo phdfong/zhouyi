@@ -1,0 +1,3 @@
+# Keep Python files normalized across WSL and VS Code
+* text=auto
+*.py text eol=lf
