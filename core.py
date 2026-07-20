@@ -300,6 +300,16 @@ def 打印全部辭():
 
 
 def 执行(花, Question):
+    if len(花) == 1:
+        v : int = 花[0]
+        x = []
+        for i in range(0,6):
+            x.append(v % 10) 
+            v = int(v / 10)
+        x = x[::-1]
+        print(f"converting 花 into list: {花} => {x}")
+        花 = x
+
     变爻指数 = [i+1 for i, y in 列举(花) if y == 0 or y == 3]  # '变爻' 
     打印(f"-================================ 花: {花} ================================-")
     打印(f"1个花 = 少陽 (Shao Yang) = 陽爻 --- 静爻 (不变)")
